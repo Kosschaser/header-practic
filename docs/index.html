@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+   	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+   	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+   	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+   	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+   	<script src="script/slick.js"></script>
+   	<link rel="stylesheet" href="css/slick.css">
+   	<script src="script/script.js"></script>
+   	<link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+	<header class="header--mobile">
+		<ul class="top-nav">
+			<li><a href="#"><i class="fas fa-bars"></i></a></li>
+			<li><a href="#"><i class="fas fa-home"></i></a></li>
+			<li><a href="#"><i class="fas fa-search"></i></a></li>
+			<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+			<li><a href="#"><i class="far fa-user"></i></a></li>
+			<li><a href="#"><i class="fas fa-phone"></i></a></li>
+		</ul>
+		<div class="logo-flex">
+			<img src="src/logo.png">
+			<p class="header-logo-text">Интернет-магазин «Благой арт»</p>
+		</div>
+	</header>
+	<header class="header--block">
+		<div class="header-wrap">
+			<div class="logo-flex">
+				<img src="src/logo.png">
+				<p class="header-logo-text">Интернет-магазин «Благой арт»</p>
+			</div>
+			<div class="header-input-wrap">
+				<input type="text" class="header-input" placeholder="Введите название или артикул">
+				<div class="header-input-search">
+					<i class="fas fa-search col-brown"></i>
+				</div>
+			</div>
+			<div class="header-contacts-wrap">
+				<div class="header-contacts-number">
+					+7 (800) 707-81-39
+				</div>
+				<div class="header-contacts-misc">
+					<p class="col-brown">ПН-ПТ с 9:00 до 18:00</p>
+					<p class="header-contacts-delivery">Доставка по РФ и СНГ</p>
+				</div>
+			</div>
+		</div>
+		<div class="menu-layout-right--tablet">
+				<div class="menu-item">
+					<a href="#"><i class="fas fa-shopping-cart col-brown menu-cart"></i></a>
+					<div class="menu-quant">25</div>
+					<span>ТОВАРОВ / 56 789 Р</span>
+				</div>
+				<div>
+					<a class="menu-item mr-0" href="#"><i class="far fa-user col-brown mr-2"></i>ВОЙТИ</a>
+				</div>
+			</div>
+		<div class="menu-wrap">
+			<ul class="menu-layout-left">
+				<li id='catalog-hover'><i class="fas fa-bars col-brown mr-2"></i><a class="menu-item" href="#">КАТАЛОГ ТОВАРОВ<i class="fas fa-angle-down col-brown ml-2"></i></a>
+					<div class="catalog-hover-menu">
+						<ul class="catalog-hover-inside">
+							<div class="dropdown-item-wrap"><li class="col-brown dropdown-i"><a href="#">Свадебная бижутерия<i class="col-brown menu-arrow-side fas fa-angle-right"></i></a></li></div>
+							<div class="dropdown-item-wrap"><li class="col-brown dropdown-i"><a href="#">Аксессуары для волос</a></li></div>
+							<div class="dropdown-item-wrap"><li class="col-brown dropdown-i"><a href="#">Броши</a></li></div>
+							<div id="acces-submenu" class="dropdown-item-wrap"><li class="col-brown dropdown-i"><a href="#">Мужские аксессуары<i class="col-brown menu-arrow-side fas fa-angle-right"></i></a>
+								<div class="dropdown-child-wrap"><ul class="dropdown-child">
+									<div class="dropdown-i col-brown font-weight-bold">МУЖСКАЯ БИЖУТЕРИЯ</div>
+									<div class="dropdown-item-wrap"><li class="col-brown dropdown-i"><a href="#">Браслеты</a></li></div>
+									<div class="dropdown-item-wrap"><li class="col-brown dropdown-i"><a href="#">Кулоны</a></li></div>
+									<div class="dropdown-item-wrap"><li class="col-brown dropdown-i"><a href="#">Зажимы и запонки</a></li></div>
+								</ul></div>
+							</li>
+							</div>
+							<div class="dropdown-item-wrap"><li class="col-brown dropdown-i"><a href="#">Клатчи</a></li></div>
+							<div class="dropdown-item-wrap"><li class="col-brown dropdown-i"><a href="#">Десткая бижутерия</a></li></div>
+							<div class="dropdown-item-wrap"><li class="col-brown dropdown-i"><a href="#">Демонстративное <br>оборудование</a></li></div>
+						</ul>
+					</div>
+				</li>
+				<li><a class="menu-item" href="#">УСЛОВИЯ РАБОТЫ</a></li>
+				<li><a class="menu-item" href="#">СКИДКИ</a></li>
+				<li><a class="menu-item" href="#">ОПЛАТА И ДОСТАВКА</a></li>
+				<li><a class="menu-item" href="#">ДОКУМЕНТЫ</a></li>
+				<li><a class="menu-item" href="#">КОНТАКТЫ</a></li>
+			</ul>
+
+			<div class="menu-layout-right">
+				<div class="menu-item">
+					<a href="#"><i class="fas fa-shopping-cart col-brown menu-cart"></i></a>
+					<div class="menu-quant">25</div>
+					<span>ТОВАРОВ / 56 789 Р</span>
+				</div>
+				<div>
+					<a class="menu-item mr-0" href="#"><i class="far fa-user col-brown mr-2"></i>ВОЙТИ</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div id="sl-carousel">
+			<div class="car-item">
+				<img src="https://via.placeholder.com/1920x1080" alt="">
+				<div class="car-content">
+					<a href="#">
+						<p class="car-header">Sample heading</p>
+						<p class="car-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora animi maxime ex odit assumenda dolorum doloremque.</p>				
+					</a>
+				</div>
+			</div>
+			<div class="car-item">
+				<img src="https://via.placeholder.com/1024x768" alt="">
+				<div class="car-content">
+					<a href="#">
+						<p class="car-header">Sample heading</p>
+						<p class="car-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora animi maxime ex odit assumenda dolorum doloremque.</p>		
+					</a>			
+				</div>
+			</div>
+			<div class="car-item">
+				<img src="src/pic1.jpeg" alt="">
+				<div class="car-content">
+					<a href="#">
+						<p class="car-header">Sample heading</p>
+						<p class="car-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora animi maxime ex odit assumenda dolorum doloremque.</p>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
